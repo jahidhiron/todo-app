@@ -1,0 +1,29 @@
+<%- include("partials/header") %>
+    <div class="table-container">
+      <h2 class="todo-title">Todo list</h2>
+      <div>
+        <a class="btn" href="/add-todo">Add todo</a>
+      </div>
+      <br />
+
+      <table>
+        <tr>
+          <th>Title</th>
+          <th>Description</th>
+          <th>Created at</th>
+          <th>Updated at</th>
+          <th>Action</th>
+        </tr>
+        <tr>
+          <td>Test todo title</td>
+          <td>Test todo description</td>
+          <td>Created time</td>
+          <td>Updated time</td>
+          <td>
+            <a class="btn" href="/update-todo">Edit</a>
+            <a class="btn" href="/delete-todo">Delete</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+<%- include("partials/footer") %>
