@@ -1,3 +1,3 @@
 # Description
 
-This repository is about Udemy teaching purpose as a instructor
+This repository is used as teaching purpose on Udemy
